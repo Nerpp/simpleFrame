@@ -1,0 +1,19 @@
+{
+    "name": "regia/egnink",
+    "description": "site vitrine web design devweb, develloper web, backend frontend",
+    "autoload": {
+        "psr-4": {
+            "App\\":"src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aurelien Regi",
+            "email": "regiaurelien@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0",
+        "swiftmailer/swiftmailer": "^6.2"
+    }
+}

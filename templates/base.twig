@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset="UTF-8">
+
+		<title>egnink</title>
+
+		<!-- balise meta SEO google descriptif du site -->
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript,Bootstrap,php,twig">
+		<meta name="Serveur personnel"/>
+		<meta
+		name="author" content="Alexandra Bossa">
+
+		<!-- pour le SEO produit google -->
+		<link
+		rel="alternate" hreflang="fr" href=""/>
+
+		<!-- admin mobile -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+		<!-- bootstrap -->
+		<!-- Latest compiled and minified CSS -->
+		{# <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> #}
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> <!-- bootstrap -->
+
+		<!-- appel au css -->
+	<link href="public/css/style.index.css" rel="stylesheet" type="Text/CSS"/> <!-- appel au css -->
+
+
+		<!-- typo Literata & Opensans -->
+		{# <link href="https://fonts.googleapis.com/css?family=Literata|Open+Sans&display=swap" rel="stylesheet"> #}
+
+		<!-- icone Font Awesome 5 -->
+		{# <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' #}
+		{# integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'> #}
+	</head>
+
+	<body>
+
+		{{ include('\\navbar\\navbar.twig') }}
+
+		<header>
+			{% block header %}{% endblock %}
+		</header>
+
+		<section>
+			{% block subtitle %}{% endblock %}
+		</section>
+
+		<section>
+			{% block section %}{% endblock %}
+		</section>
+
+	</body>
+
+</html>
