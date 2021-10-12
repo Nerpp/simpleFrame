@@ -4,7 +4,7 @@ namespace App\Config\Router;
 
 use App\Config\Security\Filter;
 use App\Controller\ContactController;
-use App\Config\AbstractController\AbstractController;
+
 
 class Router 
 {
@@ -15,22 +15,23 @@ class Router
 
   public function __construct()
   {
-
-    $cleanString = new Filter;
-    $path = ltrim($cleanString->stringFilter($_SERVER['REQUEST_URI']), '/');
+    $path = ltrim(filter_var($_SERVER['REQUEST_URI'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH),'/');
     $elements = explode('/', $path);
 
     $page = (empty($elements[1])) ? 'index' : $elements[1];
-    
+
     switch ($page) {
       case 'Contact':
         $test = new ContactController;
         $this->_sFolder = $test->_setpage();
+        $this->_aParam = $test->_setParam();
         break;
       
       default:
       $this->_sFolder = $page;
         break;
+
+        
     }
      // if (!is_null(INPUT_POST)) {
     //   $this->_aParam= ;
@@ -43,7 +44,7 @@ class Router
     {
     
       
-      
+      // $this->_sFolder= 'contact';
       //  var_dump($this->_sPage);
       
      

@@ -6720,4 +6720,115 @@ Stack trace:
 #3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('\\index.view.twi...')
 #4 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(33): Twig\Environment->render('\\index.view.twi...', Array)
 #5 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
-#6 {main}
+#6 {main}Le mardi 12 octobre 9:12 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:12 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:13 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:14 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:14 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:14 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:15 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:16 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:16 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:17 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:18 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:20 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:21 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:21 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:22 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:24 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:24 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:24 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:24 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:24 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:27 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:39 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:58 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:58 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 9:58 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 10:10 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+ParseError: syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{' in C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php:20
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php(27): spl_autoload_call('App\\Controller\\...')
+#3 C:\wamp64\www\SimpleFrame\index.php(21): App\Config\Router\Router->__construct()
+#4 {main}ParseError: syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{' in C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php:20
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php(27): spl_autoload_call('App\\Controller\\...')
+#3 C:\wamp64\www\SimpleFrame\index.php(21): App\Config\Router\Router->__construct()
+#4 {main}Le mardi 12 octobre 10:17 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 10:17 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 10:17 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 10:18 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 10:19 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 10:19 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 10:19 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 10:19 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 10:20 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 10:20 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 10:20 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Twig\Error\LoaderError: Unable to find template "SimpleFrame/index.view.twig" (looked into: templates). in C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php:227
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('SimpleFrame/ind...')
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('SimpleFrame\\ind...')
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('SimpleFrame\\ind...')
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('SimpleFrame\\ind...')
+#4 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(33): Twig\Environment->render('SimpleFrame\\ind...', Array)
+#5 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#6 {main}Twig\Error\LoaderError: Unable to find template "SimpleFrame/index.view.twig" (looked into: templates). in C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php:227
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('SimpleFrame/ind...')
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('SimpleFrame\\ind...')
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('SimpleFrame\\ind...')
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('SimpleFrame\\ind...')
+#4 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(33): Twig\Environment->render('SimpleFrame\\ind...', Array)
+#5 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#6 {main}Twig\Error\LoaderError: Unable to find template "SimpleFrame/index.view.twig" (looked into: templates). in C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php:227
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('SimpleFrame/ind...')
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('SimpleFrame\\ind...')
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('SimpleFrame\\ind...')
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('SimpleFrame\\ind...')
+#4 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(33): Twig\Environment->render('SimpleFrame\\ind...', Array)
+#5 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#6 {main}Twig\Error\LoaderError: Unable to find template "SimpleFrame/index.view.twig" (looked into: templates). in C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php:227
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('SimpleFrame/ind...')
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('SimpleFrame\\ind...')
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('SimpleFrame\\ind...')
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('SimpleFrame\\ind...')
+#4 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(33): Twig\Environment->render('SimpleFrame\\ind...', Array)
+#5 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#6 {main}Error: Class 'App\Config\Services\Captcha' not found in C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php:53
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php(20): App\Controller\ContactController->contactTreatment()
+#1 C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php(25): App\Controller\ContactController->__construct()
+#2 C:\wamp64\www\SimpleFrame\index.php(21): App\Config\Router\Router->__construct()
+#3 {main}Error: Class 'App\Config\Services\Captcha' not found in C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php:53
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php(20): App\Controller\ContactController->contactTreatment()
+#1 C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php(25): App\Controller\ContactController->__construct()
+#2 C:\wamp64\www\SimpleFrame\index.php(21): App\Config\Router\Router->__construct()
+#3 {main}Error: Class 'App\Config\Services\Captcha' not found in C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php:53
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php(20): App\Controller\ContactController->contactTreatment()
+#1 C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php(25): App\Controller\ContactController->__construct()
+#2 C:\wamp64\www\SimpleFrame\index.php(21): App\Config\Router\Router->__construct()
+#3 {main}Error: Class 'App\Config\Services\Captcha' not found in C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php:53
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php(20): App\Controller\ContactController->contactTreatment()
+#1 C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php(25): App\Controller\ContactController->__construct()
+#2 C:\wamp64\www\SimpleFrame\index.php(21): App\Config\Router\Router->__construct()
+#3 {main}Error: Class 'App\Config\Services\Captcha' not found in C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php:53
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php(20): App\Controller\ContactController->contactTreatment()
+#1 C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php(25): App\Controller\ContactController->__construct()
+#2 C:\wamp64\www\SimpleFrame\index.php(21): App\Config\Router\Router->__construct()
+#3 {main}Error: Class 'App\Config\Services\Captcha' not found in C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php:53
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php(20): App\Controller\ContactController->contactTreatment()
+#1 C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php(25): App\Controller\ContactController->__construct()
+#2 C:\wamp64\www\SimpleFrame\index.php(21): App\Config\Router\Router->__construct()
+#3 {main}

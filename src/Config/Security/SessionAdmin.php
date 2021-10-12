@@ -13,6 +13,10 @@ class SessionAdmin
         if (!isset($_SESSION['mailSent'])) {
             $_SESSION['mailSent'] = 0;
         }
+
+        // (empty($elements[1])) ? 'index' : $elements[1];
+
+      
     }
 
     public function setToken()
