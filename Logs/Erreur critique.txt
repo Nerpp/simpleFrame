@@ -6831,4 +6831,274 @@ Stack trace:
 #0 C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php(20): App\Controller\ContactController->contactTreatment()
 #1 C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php(25): App\Controller\ContactController->__construct()
 #2 C:\wamp64\www\SimpleFrame\index.php(21): App\Config\Router\Router->__construct()
-#3 {main}
+#3 {main}Le mardi 12 octobre 4:15 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 4:15 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 4:15 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 4:17 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 4:17 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 4:18 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mardi 12 octobre 4:19 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 7:58 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 7:58 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+ParseError: syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:44
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}ParseError: syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:44
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}ParseError: syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:44
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}ParseError: syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:44
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}ParseError: syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:44
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}ParseError: syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:44
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}ParseError: syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:45
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}ParseError: syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:45
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}ParseError: syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:45
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}ParseError: syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:45
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}ParseError: syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:45
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}ParseError: syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:45
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}ParseError: syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:45
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}ParseError: syntax error, unexpected 'protected' (T_PROTECTED) in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:43
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}ParseError: syntax error, unexpected 'protected' (T_PROTECTED) in C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php:43
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Rout...')
+#2 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(7): spl_autoload_call('App\\Config\\Rout...')
+#3 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(480): include('C:\\wamp64\\www\\S...')
+#4 C:\wamp64\www\SimpleFrame\vendor\composer\ClassLoader.php(346): Composer\Autoload\includeFile('C:\\wamp64\\www\\S...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Config\\Admi...')
+#6 C:\wamp64\www\SimpleFrame\index.php(21): spl_autoload_call('App\\Config\\Admi...')
+#7 {main}Le mercredi 13 octobre 10:16 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 10:16 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 10:17 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 11:02 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 11:04 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 11:04 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 11:28 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 11:28 am 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:36 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:36 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:36 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:37 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:37 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:37 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:37 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:37 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:37 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:37 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:38 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:39 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:39 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:41 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:41 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:42 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:44 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:44 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:45 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:48 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:48 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 12:48 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Error: Call to protected method App\Config\Security\SecurityContact::querry() from context 'App\Controller\ContactController' in C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php:26
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php(19): App\Controller\ContactController->contactTreatment()
+#1 C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php(25): App\Controller\ContactController->__construct()
+#2 C:\wamp64\www\SimpleFrame\index.php(21): App\Config\Router\Router->__construct()
+#3 {main}Error: Call to protected method App\Config\Security\SecurityContact::querry() from context 'App\Controller\ContactController' in C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php:26
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\src\Controller\ContactController.php(19): App\Controller\ContactController->contactTreatment()
+#1 C:\wamp64\www\SimpleFrame\src\Config\Router\Router.php(25): App\Controller\ContactController->__construct()
+#2 C:\wamp64\www\SimpleFrame\index.php(21): App\Config\Router\Router->__construct()
+#3 {main}Le mercredi 13 octobre 2:59 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 2:59 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 3:00 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 3:00 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 3:01 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 3:01 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 3:01 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 3:02 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 3:04 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 3:04 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 3:05 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 3:07 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 3:40 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 3:41 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 3:41 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 4:17 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 4:18 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 4:18 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 4:19 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 4:19 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 4:20 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 4:21 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 4:21 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Twig\Error\LoaderError: Unable to find template "/index.view.twig" (looked into: templates). in C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php:227
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('/index.view.twi...')
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('\\index.view.twi...')
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('\\index.view.twi...')
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('\\index.view.twi...')
+#4 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(33): Twig\Environment->render('\\index.view.twi...', Array)
+#5 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#6 {main}Twig\Error\LoaderError: Unable to find template "/index.view.twig" (looked into: templates). in C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php:227
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('/index.view.twi...')
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('\\index.view.twi...')
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('\\index.view.twi...')
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('\\index.view.twi...')
+#4 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(33): Twig\Environment->render('\\index.view.twi...', Array)
+#5 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#6 {main}Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{". in C:\wamp64\www\SimpleFrame\templates\contact\index.view.twig:103
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(278): Twig\ExpressionParser->parseHashExpression()
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(604): Twig\ExpressionParser->parseExpression(0, false)
+#4 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(456): Twig\ExpressionParser->parseArguments(true)
+#5 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(235): Twig\ExpressionParser->getFunctionNode('dump', 103)
+#6 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#7 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#8 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Parser.php(128): Twig\ExpressionParser->parseExpression()
+#9 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#10 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Parser.php(171): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#11 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Parser.php(84): Twig\Parser->subparse(NULL, false)
+#12 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(479): Twig\Parser->parse(Object(Twig\TokenStream))
+#13 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(507): Twig\Environment->parse(Object(Twig\TokenStream))
+#14 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#15 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'Contact\\index.v...')
+#16 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('Contact\\index.v...')
+#17 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(33): Twig\Environment->render('Contact\\index.v...', Array)
+#18 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#19 {main}Twig\Error\LoaderError: Unable to find template "/index.view.twig" (looked into: templates). in C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php:227
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('/index.view.twi...')
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('\\index.view.twi...')
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('\\index.view.twi...')
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('\\index.view.twi...')
+#4 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(33): Twig\Environment->render('\\index.view.twi...', Array)
+#5 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#6 {main}Twig\Error\LoaderError: Unable to find template "/index.view.twig" (looked into: templates). in C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php:227
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('/index.view.twi...')
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('\\index.view.twi...')
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('\\index.view.twi...')
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('\\index.view.twi...')
+#4 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(33): Twig\Environment->render('\\index.view.twi...', Array)
+#5 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#6 {main}Twig\Error\LoaderError: Unable to find template "/index.view.twig" (looked into: templates). in C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php:227
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('/index.view.twi...')
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('\\index.view.twi...')
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('\\index.view.twi...')
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('\\index.view.twi...')
+#4 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(33): Twig\Environment->render('\\index.view.twi...', Array)
+#5 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#6 {main}Le mercredi 13 octobre 4:36 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 4:37 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 4:41 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6

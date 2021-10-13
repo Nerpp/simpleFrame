@@ -10,7 +10,7 @@
 				<h1>Page de contact</h1>
 			</div>
 			<div class="">
-			{{ Err.flash|default('') }}
+			{{ flash|default('') }}
 			</div>
 		</div>
 	</div>
@@ -99,7 +99,6 @@
 					<input type="hidden" name="p" id="page" value="contact">
 					<input type="hidden" name="token" id="page" value="{{ token }}">
 				</div>
-
 			</form>
 		</div>
 	</div>

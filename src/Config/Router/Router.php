@@ -1,7 +1,7 @@
 <?php
 namespace App\Config\Router;
 
-
+use App\Config\AbstractController\AbstractController;
 use App\Config\Security\Filter;
 use App\Controller\ContactController;
 
@@ -22,20 +22,16 @@ class Router
 
     switch ($page) {
       case 'Contact':
-        $test = new ContactController;
-        $this->_sFolder = $test->_setpage();
-        $this->_aParam = $test->_setParam();
+        $controller = new ContactController;
+        $this->_sFolder = $controller->_setpage();
+        $this->_aParam = $controller->_setParam();
         break;
       
       default:
       $this->_sFolder = $page;
-        break;
-
-        
+        break; 
     }
-     // if (!is_null(INPUT_POST)) {
-    //   $this->_aParam= ;
-    // }
+    
    
   }
     

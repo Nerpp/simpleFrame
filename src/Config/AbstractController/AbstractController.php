@@ -22,6 +22,7 @@ class AbstractController
     {
         return $this->_aParams;
     }
+
     protected function render(string $path, array $params)
     {
 
@@ -30,4 +31,5 @@ class AbstractController
         var_dump($params);
         
     }
+
 }
