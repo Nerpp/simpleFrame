@@ -71,21 +71,18 @@ class SecurityContact extends AbstractSecurity
         }
 
         if (!isset($_aParams['mail'])) {
-
             $this->_aErr['mail'] = "Veuillez renseigner une adresse mail valide";
         } else {
             $this->_aParamsDecoded['mail'] = html_entity_decode($_aParams['mail'], ENT_QUOTES);
         }
 
         if (!isset($_aParams['nom'])) {
-
             $this->_aErr['non'] = "Vous devez renseigner votre nom";
         } else {
             $this->_aParamsDecoded['nom'] = html_entity_decode($_aParams['nom'], ENT_QUOTES);
         }
 
         if (!isset($_aParams['prenom'])) {
-
             $this->_aErr['prenom'] = "Vous devez renseigner votre prenom";
         } else {
             $this->_aParamsDecoded['prenom'] = html_entity_decode($_aParams['prenom'], ENT_QUOTES);
@@ -101,10 +98,9 @@ class SecurityContact extends AbstractSecurity
 
         if (!isset($_aParams['message'])) {
             $this->_aErr['message'] = "Vous avez oublié d'écrire votre message";
-        } else {
+        }else {
             $this->_aParamsDecoded['message'] = html_entity_decode($_aParams['message'], ENT_QUOTES);
         }
-
-        
+ 
     }
 }

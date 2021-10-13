@@ -23,8 +23,9 @@
 		<div class="d-flex flex-wrap justify-content-center text-center">
 			<form name="{{ current_page }}Formulaire" action="" method="post" class="was-validated">
 				<div class="">
+				<p>{{ Valid.nom }}</p>
 					<p>
-						{{ forms.input('nom','votre nom',nom|html_decode|default(''),'texte') }}
+						{{ forms.input('nom','votre nom',Valid.nom|html_decode|default(''),'texte') }}
 					</p>
 					<p>
 						{{ Err.nom|default('') }}
@@ -32,7 +33,7 @@
 				</div>
 				<div class="">
 					<p>
-						{{ forms.input('prenom','votre prenom',prenom|html_decode|default(''),'texte') }}
+						{{ forms.input('prenom','votre prenom',Valid.prenom|html_decode|default(''),'texte') }}
 					</p>
 					<p>
 						{{ Err.prenom|default('') }}
@@ -40,7 +41,7 @@
 				</div>
 				<div class="">
 					<p>
-						{{ forms.input('mail','votre adresse mail',mail|html_decode|default(''),'texte') }}
+						{{ forms.input('mail','votre adresse mail',Valid.mail|html_decode|default(''),'texte') }}
 					</p>
 					<p>
 						{{ Err.mail|default('') }}
@@ -48,7 +49,7 @@
 				</div>
 				<div class="">
 					<p>
-						{{ forms.input('telephone','votre n° de téléphone',telephone|default(''),'texte') }}
+						{{ forms.input('telephone','votre n° de téléphone',Valid.telephone|default(''),'texte') }}
 					</p>
 					<p>
 						{{ Err.telephone|default('') }}
@@ -59,7 +60,7 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text">Votre message</span>
 					</div>
-					<textarea class="form-control" placeholder="Nous vous répondrons dans les meilleurs délais" name="message" aria-label="With textarea" rows="4" cols="50" wrap="hard" class="valid-feedback" class="invalid-feedback" required>{{ message|html_decode|default('') }}</textarea>
+					<textarea class="form-control" placeholder="Nous vous répondrons dans les meilleurs délais" name="message" aria-label="With textarea" rows="4" cols="50" wrap="hard" class="valid-feedback" class="invalid-feedback" required>{{ Valid.message|html_decode|default('') }}</textarea>
 				</div>
 
 				<div class="">

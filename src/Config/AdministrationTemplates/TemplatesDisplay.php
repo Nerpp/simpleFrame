@@ -9,8 +9,7 @@ class TemplatesDisplay extends Router
     
     public function showTemplate()
     {
-        
-        // $this->router();
+
         $loader = new \Twig\Loader\FilesystemLoader('templates');
 
         //Todo Supprimer debbug et mettre cache en TRUE pour mettre en production

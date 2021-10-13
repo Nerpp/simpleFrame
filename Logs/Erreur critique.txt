@@ -7102,3 +7102,88 @@ Stack trace:
 #6 {main}Le mercredi 13 octobre 4:36 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
 Le mercredi 13 octobre 4:37 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
 Le mercredi 13 octobre 4:41 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 6:35 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 6:35 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Le mercredi 13 octobre 6:35 pm 2021, l'exception   Erreur critique ! dans le fichier : [0]  C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php à la ligne 6
+Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{". in C:\wamp64\www\SimpleFrame\templates\contact\index.view.twig:27
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(278): Twig\ExpressionParser->parseHashExpression()
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(604): Twig\ExpressionParser->parseExpression(0, false)
+#4 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(456): Twig\ExpressionParser->parseArguments(true)
+#5 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(235): Twig\ExpressionParser->getFunctionNode('dump', 27)
+#6 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#7 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#8 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Parser.php(128): Twig\ExpressionParser->parseExpression()
+#9 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#10 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Parser.php(171): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#11 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Parser.php(84): Twig\Parser->subparse(NULL, false)
+#12 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(479): Twig\Parser->parse(Object(Twig\TokenStream))
+#13 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(507): Twig\Environment->parse(Object(Twig\TokenStream))
+#14 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#15 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'Contact\\index.v...')
+#16 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('Contact\\index.v...')
+#17 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(33): Twig\Environment->render('Contact\\index.v...', Array)
+#18 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#19 {main}App\Config\Exception\ExceptionCustom in C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php:6
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(87): App\Config\Exception\error2exception(8, 'Array to string...', 'C:\\wamp64\\www\\S...', 87, Array)
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(171): __TwigTemplate_b58e7cb927cf06c5864d02f495fa1958eddab4eaea1413c7ac6644d971474b73->block_subtitle(Array, Array)
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(100): Twig\Template->displayBlock('subtitle', Array, Array)
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(394): __TwigTemplate_4dc94c6e66887db66be3c89957316930f0a80aa6e4b166987fcd1fb524243a9e->doDisplay(Array, Array)
+#4 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#5 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(46): Twig\Template->display(Array, Array)
+#6 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(394): __TwigTemplate_b58e7cb927cf06c5864d02f495fa1958eddab4eaea1413c7ac6644d971474b73->doDisplay(Array, Array)
+#7 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#8 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#9 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#10 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#11 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(32): Twig\Environment->render('Contact\\index.v...', Array)
+#12 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#13 {main}
+
+Next Twig\Error\RuntimeError: An exception has been thrown during the rendering of a template (""). in C:\wamp64\www\SimpleFrame\templates\contact\index.view.twig:26
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(100): Twig\Template->displayBlock('subtitle', Array, Array)
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(394): __TwigTemplate_4dc94c6e66887db66be3c89957316930f0a80aa6e4b166987fcd1fb524243a9e->doDisplay(Array, Array)
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(46): Twig\Template->display(Array, Array)
+#4 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(394): __TwigTemplate_b58e7cb927cf06c5864d02f495fa1958eddab4eaea1413c7ac6644d971474b73->doDisplay(Array, Array)
+#5 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#7 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#8 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#9 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(32): Twig\Environment->render('Contact\\index.v...', Array)
+#10 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#11 {main}App\Config\Exception\ExceptionCustom in C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php:6
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(87): App\Config\Exception\error2exception(8, 'Array to string...', 'C:\\wamp64\\www\\S...', 87, Array)
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(171): __TwigTemplate_b58e7cb927cf06c5864d02f495fa1958eddab4eaea1413c7ac6644d971474b73->block_subtitle(Array, Array)
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(100): Twig\Template->displayBlock('subtitle', Array, Array)
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(394): __TwigTemplate_4dc94c6e66887db66be3c89957316930f0a80aa6e4b166987fcd1fb524243a9e->doDisplay(Array, Array)
+#4 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#5 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(46): Twig\Template->display(Array, Array)
+#6 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(394): __TwigTemplate_b58e7cb927cf06c5864d02f495fa1958eddab4eaea1413c7ac6644d971474b73->doDisplay(Array, Array)
+#7 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#8 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#9 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#10 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#11 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(32): Twig\Environment->render('Contact\\index.v...', Array)
+#12 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#13 {main}
+
+Next Twig\Error\RuntimeError: An exception has been thrown during the rendering of a template (""). in C:\wamp64\www\SimpleFrame\templates\contact\index.view.twig:26
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(100): Twig\Template->displayBlock('subtitle', Array, Array)
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(394): __TwigTemplate_4dc94c6e66887db66be3c89957316930f0a80aa6e4b166987fcd1fb524243a9e->doDisplay(Array, Array)
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(46): Twig\Template->display(Array, Array)
+#4 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(394): __TwigTemplate_b58e7cb927cf06c5864d02f495fa1958eddab4eaea1413c7ac6644d971474b73->doDisplay(Array, Array)
+#5 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#7 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#8 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#9 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(32): Twig\Environment->render('Contact\\index.v...', Array)
+#10 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#11 {main}

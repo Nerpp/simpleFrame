@@ -24,6 +24,7 @@ final class ContactController extends AbstractController
       $securityContact = new SecurityContact();
       $param = $securityContact->_getParam();
 
+     
       if (isset($param['token']) && $param['token'] === $_SESSION['token']) {
 
          $checkInformation = $securityContact->_getErr();
@@ -34,7 +35,8 @@ final class ContactController extends AbstractController
                'captcha' => (new Captcha())->captcha(),
                'token' => $this->session->setToken(),
                'Err' => $checkInformation,
-               'flash' => 'Des éléments érroné ont été communiqué'
+               'flash' => 'Des éléments érroné ont été communiqué',
+               'Valid' => $param
             ]);
             return;
          }
@@ -46,7 +48,8 @@ final class ContactController extends AbstractController
                'captcha' => (new Captcha())->captcha(),
                'token' => $this->session->setToken(),
                'Err' => $checkInformation,
-               'flash' => 'Une erreur est survenue veuiller réessayer plus tard'
+               'flash' => 'Une erreur est survenue veuiller réessayer plus tard',
+               'Valid' => $param
             ]);
             return;
          }

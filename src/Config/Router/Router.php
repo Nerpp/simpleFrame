@@ -31,19 +31,6 @@ class Router
       $this->_sFolder = $page;
         break; 
     }
-    
-   
   }
     
-
-    protected function router()
-    {
-    
-      
-      // $this->_sFolder= 'contact';
-      //  var_dump($this->_sPage);
-      
-     
-    }
-
 }
