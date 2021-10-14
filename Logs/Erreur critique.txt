@@ -7129,8 +7129,8 @@ Stack trace:
 #19 {main}App\Config\Exception\ExceptionCustom in C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php:6
 Stack trace:
 #0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(87): App\Config\Exception\error2exception(8, 'Array to string...', 'C:\\wamp64\\www\\S...', 87, Array)
-#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(171): __TwigTemplate_b58e7cb927cf06c5864d02f495fa1958eddab4eaea1413c7ac6644d971474b73->block_subtitle(Array, Array)
-#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(100): Twig\Template->displayBlock('subtitle', Array, Array)
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(171): __TwigTemplate_b58e7cb927cf06c5864d02f495fa1958eddab4eaea1413c7ac6644d971474b73->block_body(Array, Array)
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(100): Twig\Template->displayBlock('body', Array, Array)
 #3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(394): __TwigTemplate_4dc94c6e66887db66be3c89957316930f0a80aa6e4b166987fcd1fb524243a9e->doDisplay(Array, Array)
 #4 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
 #5 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(46): Twig\Template->display(Array, Array)
@@ -7145,7 +7145,7 @@ Stack trace:
 
 Next Twig\Error\RuntimeError: An exception has been thrown during the rendering of a template (""). in C:\wamp64\www\SimpleFrame\templates\contact\index.view.twig:26
 Stack trace:
-#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(100): Twig\Template->displayBlock('subtitle', Array, Array)
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(100): Twig\Template->displayBlock('body', Array, Array)
 #1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(394): __TwigTemplate_4dc94c6e66887db66be3c89957316930f0a80aa6e4b166987fcd1fb524243a9e->doDisplay(Array, Array)
 #2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
 #3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(46): Twig\Template->display(Array, Array)
@@ -7159,8 +7159,8 @@ Stack trace:
 #11 {main}App\Config\Exception\ExceptionCustom in C:\wamp64\www\SimpleFrame\src\Config\Exception\Exception.php:6
 Stack trace:
 #0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(87): App\Config\Exception\error2exception(8, 'Array to string...', 'C:\\wamp64\\www\\S...', 87, Array)
-#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(171): __TwigTemplate_b58e7cb927cf06c5864d02f495fa1958eddab4eaea1413c7ac6644d971474b73->block_subtitle(Array, Array)
-#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(100): Twig\Template->displayBlock('subtitle', Array, Array)
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(171): __TwigTemplate_b58e7cb927cf06c5864d02f495fa1958eddab4eaea1413c7ac6644d971474b73->block_body(Array, Array)
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(100): Twig\Template->displayBlock('body', Array, Array)
 #3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(394): __TwigTemplate_4dc94c6e66887db66be3c89957316930f0a80aa6e4b166987fcd1fb524243a9e->doDisplay(Array, Array)
 #4 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
 #5 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(46): Twig\Template->display(Array, Array)
@@ -7175,7 +7175,7 @@ Stack trace:
 
 Next Twig\Error\RuntimeError: An exception has been thrown during the rendering of a template (""). in C:\wamp64\www\SimpleFrame\templates\contact\index.view.twig:26
 Stack trace:
-#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(100): Twig\Template->displayBlock('subtitle', Array, Array)
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(100): Twig\Template->displayBlock('body', Array, Array)
 #1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(394): __TwigTemplate_4dc94c6e66887db66be3c89957316930f0a80aa6e4b166987fcd1fb524243a9e->doDisplay(Array, Array)
 #2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
 #3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(358) : eval()'d code(46): Twig\Template->display(Array, Array)
@@ -7186,4 +7186,52 @@ Stack trace:
 #8 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
 #9 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(32): Twig\Environment->render('Contact\\index.v...', Array)
 #10 C:\wamp64\www\SimpleFrame\index.php(24): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
-#11 {main}
+#11 {main}Twig\Error\SyntaxError: Unknown "endblock" tag. in C:\wamp64\www\SimpleFrame\templates\memorum\index.view.twig:13
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Parser.php(84): Twig\Parser->subparse(NULL, false)
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(479): Twig\Parser->parse(Object(Twig\TokenStream))
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(507): Twig\Environment->parse(Object(Twig\TokenStream))
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#4 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'memorum\\index.v...')
+#5 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('memorum\\index.v...')
+#6 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(32): Twig\Environment->render('memorum\\index.v...', Array)
+#7 C:\wamp64\www\SimpleFrame\index.php(20): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#8 {main}Twig\Error\SyntaxError: Unknown "endblock" tag. in C:\wamp64\www\SimpleFrame\templates\memorum\index.view.twig:13
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Parser.php(84): Twig\Parser->subparse(NULL, false)
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(479): Twig\Parser->parse(Object(Twig\TokenStream))
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(507): Twig\Environment->parse(Object(Twig\TokenStream))
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#4 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'memorum\\index.v...')
+#5 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('memorum\\index.v...')
+#6 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(32): Twig\Environment->render('memorum\\index.v...', Array)
+#7 C:\wamp64\www\SimpleFrame\index.php(20): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#8 {main}Twig\Error\SyntaxError: Unknown "endblock" tag. in C:\wamp64\www\SimpleFrame\templates\memorum\index.view.twig:13
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Parser.php(84): Twig\Parser->subparse(NULL, false)
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(479): Twig\Parser->parse(Object(Twig\TokenStream))
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(507): Twig\Environment->parse(Object(Twig\TokenStream))
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#4 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'memorum\\index.v...')
+#5 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('memorum\\index.v...')
+#6 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(32): Twig\Environment->render('memorum\\index.v...', Array)
+#7 C:\wamp64\www\SimpleFrame\index.php(20): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#8 {main}Twig\Error\SyntaxError: Unknown "endblock" tag. in C:\wamp64\www\SimpleFrame\templates\memorum\index.view.twig:13
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Parser.php(84): Twig\Parser->subparse(NULL, false)
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(479): Twig\Parser->parse(Object(Twig\TokenStream))
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(507): Twig\Environment->parse(Object(Twig\TokenStream))
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#4 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'memorum\\index.v...')
+#5 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('memorum\\index.v...')
+#6 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(32): Twig\Environment->render('memorum\\index.v...', Array)
+#7 C:\wamp64\www\SimpleFrame\index.php(20): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#8 {main}Twig\Error\LoaderError: Unable to find template "Memoruma/index.view.twig" (looked into: templates). in C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php:227
+Stack trace:
+#0 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Memoruma/index....')
+#1 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Memoruma\\index....')
+#2 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('Memoruma\\index....')
+#3 C:\wamp64\www\SimpleFrame\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('Memoruma\\index....')
+#4 C:\wamp64\www\SimpleFrame\src\Config\AdministrationTemplates\TemplatesDisplay.php(32): Twig\Environment->render('Memoruma\\index....', Array)
+#5 C:\wamp64\www\SimpleFrame\index.php(20): App\Config\AdministrationTemplates\TemplatesDisplay->showTemplate()
+#6 {main}

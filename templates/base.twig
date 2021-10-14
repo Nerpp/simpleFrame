@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 
-		<title>egnink</title>
+		<title>{% block title %}egnink{% endblock %}</title>
 
 		<!-- balise meta SEO google descriptif du site -->
 		<meta name="keywords" content="HTML,CSS,XML,JavaScript,Bootstrap,php,twig">
@@ -46,7 +46,7 @@
 		</header>
 
 		<section>
-			{% block subtitle %}{% endblock %}
+			{% block body %}{% endblock %}
 		</section>
 
 		<section>

@@ -25,11 +25,8 @@ class AbstractController
 
     protected function render(string $path, array $params)
     {
-
         $this->_sPage = $path;
-        $this->_aParams = $params;
-        var_dump($params);
-        
+        $this->_aParams = $params; 
     }
 
 }

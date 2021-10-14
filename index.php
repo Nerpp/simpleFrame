@@ -9,10 +9,6 @@ require dirname(__FILE__).'/vendor/autoload.php';
 require_once 'src\Config\Exception\ExceptionCustom.php';
 require_once 'src\Config\Exception\Exception.php';
 
-
-
-// var_dump($_POST);
-
 // pour ajouter de nouvelle classe à l\'autoload composer dump-autoload --optimize
 
 use App\Config\Exception\ExceptionCustom;

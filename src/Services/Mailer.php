@@ -26,8 +26,8 @@ class Mailer
     ;
         // Create the Transport
         $transport = (new \Swift_SmtpTransport('smtp.gmail.com', 465, 'ssl'))
-            ->setUsername('smptpserveur@gmail.com')
-            ->setPassword('9gU9fzFBDqkj56r');
+            ->setUsername('adresse du serveur')
+            ->setPassword('à completer');
 
 
         // Create the Mailer using your created Transport
@@ -35,7 +35,7 @@ class Mailer
 
         // Create a message
         $message = (new \Swift_Message('Message'))
-            ->setFrom(['smptpserveur@gmail.com' => 'Karl'])
+            ->setFrom(['adresse du serveur' => 'nom de l\'envoyeur'])
             ->setTo([$_aParams['mail'] => $_aParams['nom']])
             ->setBody($bodyHtml, 'text/html')
             ->addPart($bodyPLain, 'text/plain')
